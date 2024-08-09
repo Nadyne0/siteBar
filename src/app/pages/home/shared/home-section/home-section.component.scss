@@ -1,0 +1,18 @@
+section {
+    padding: 40px 20px;
+}
+
+.theme--dark { 
+    background-color: var(--covill-color-black);
+    color: var(--covill-color-text-light);
+}  
+
+.theme--light { 
+    background-color: var(--covill-color-white);
+    color: var(--covill-color-text-dark);
+}
+
+div[class$="__wrapper"] {
+    max-width: 1100px;
+    margin: 0 auto;
+}

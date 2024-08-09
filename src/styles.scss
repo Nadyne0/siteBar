@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+
+:root {
+    /* Typography */
+    --covill-font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    --covill-font-base: 14px;
+    --covill-font-heading: 3rem;
+    /* Pallete color  */
+    --covill-color-white: #FFFFFF;
+    --covill-color-black: #000000;
+    --covill-color-primary: #0C0C0C;
+    --covill-color-secondary: #6F42C1;
+    --covill-color-text-dark: #404040;
+    --covill-color-text-light: var(--covill-color-white);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: var(--covill-font-family);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3[class$="__heading"] {
+    font-family: var(--covill-font-family);
+    font-size: var(--covill-font-heading);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
